@@ -1,0 +1,122 @@
+body { 
+    font-family: Arial, sans-serif; 
+}
+
+.weather-container { 
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.6);
+    max-width: 540px;
+    margin:0 auto;
+    height:100vh; 
+    border-radius: 5%;
+    color: rgb(48, 42, 42); /* Set text color to white for better visibility */
+}
+.location {
+    text-align: left;
+    margin-bottom: 20px;
+    font: Arial,sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.location p {
+    margin: 0;
+    padding: 2% 5%;
+}
+.location img {
+    width: 3%;
+}
+
+
+.sec1,.sec2,.sec3,.sec4{
+  width: 100%;margin: 15px 0 0;
+}
+
+.weather-icon{
+    float: center;
+}
+.weather-icon{
+  width: 36%;
+}
+.weather-icon img{
+  width: 100%;
+  padding: 0 210px;
+  max-width: 140px;
+}
+
+.temperature { 
+    font-size: 3em; 
+    margin-bottom: 10px; /* Add some space between temperature and forecast */
+}
+
+.fancy {
+    padding: 10px 0; /* Adjust padding */
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto;
+    display: flex; /* Add flex display */
+    justify-content: space-between; /* Space boxes evenly */
+}
+.fancy img{
+    width: 70%;
+    align-items: center;
+}
+.box {
+    width: 45%; /* Adjust width as needed */
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(64, 61, 61, 0.6);
+    display: flex; /* Add flex display */
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+}
+
+
+.fancy .subtitle1 {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(246, 243, 243);
+    padding: 10px 20px;
+    margin-right: 0px; /* Adjust spacing as needed */
+}
+
+.fancy .subtitle2 {
+    text-align: right;
+    font-weight: bold;
+    color: rgb(246, 243, 243);
+    padding: 10px 20px;
+    margin-right: 10px; /* Adjust spacing as needed */
+}
+
+.fancy .temp_num {
+    text-align: left;
+    font-size: 200%;
+    color: rgb(246, 243, 243);
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.fancy .temp_num3{
+    text-align: right;
+    font-size: 130%;
+    color: rgb(246, 243, 243);
+}
+
+.weather-icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.icon { 
+    font-size: 1.5em; 
+}
+/* Daytime background */
+.day {
+    background-image: url("images/mosi-knife--PVgDgKXgZA-unsplash.jpg");
+    background-size: cover;
+}
+
+/* Nighttime background */
+.night {
+    background-image: url("images/night_background.jpg");
+    background-size: cover;
+}
